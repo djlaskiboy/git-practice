@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    
+}
+#navbar{
+    height: 20%;
+    background-color: #808080;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 25px;
+    font-family: cursive;
+
+}
+#navbar a{
+    color: white;
+    text-decoration: none;
+
+}
+#navbar a:hover{
+    text-decoration: underline;
+}
