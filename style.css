@@ -9,7 +9,7 @@ body{
 }
 #navbar{
     height: 20%;
-    background-color: #808080;
+    background-color: darkolivegreen;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -24,4 +24,25 @@ body{
 }
 #navbar a:hover{
     text-decoration: underline;
+}
+#main{
+    height: 80%;
+    display: flex;
+
+}
+.box{
+    height: 100%;
+    width: 50%;
+}
+#box1{
+    background-color:#A9A9A9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-family: cursive;
+    
+}
+#box2{
+    background-image: url(img/OIP.jpg);
 }
